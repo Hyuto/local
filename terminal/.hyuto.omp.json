@@ -1,0 +1,93 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "alignment": "left",
+      "horizontal_offset": 0,
+      "segments": [
+        {
+          "type": "time",
+          "style": "plain",
+          "foreground": "#66F68F",
+          "properties": {
+            "postfix": "]",
+            "prefix": "[",
+            "time_format": "15:04"
+          }
+        },
+        {
+          "foreground": "#c03fb0",
+          "properties": {
+            "postfix": " ",
+            "prefix": " ",
+            "text": "hyuto"
+          },
+          "style": "plain",
+          "type": "text"
+        },
+        {
+          "foreground": "#62ED8B",
+          "properties": {
+            "postfix": " ",
+            "prefix": "",
+            "text": "\u279C"
+          },
+          "style": "plain",
+          "type": "text"
+        },
+        {
+          "foreground": "lightGreen",
+          "invert_powerline": false,
+          "properties": {
+            "prefix": "",
+            "style": "folder"
+          },
+          "style": "plain",
+          "type": "path"
+        },
+        {
+          "foreground": "#906cff",
+          "properties": {
+            "postfix": " ",
+            "prefix": " "
+          },
+          "style": "powerline",
+          "type": "python"
+        },
+        {
+          "foreground": "#76b367",
+          "properties": {
+            "postfix": " ",
+            "prefix": " "
+          },
+          "style": "powerline",
+          "type": "node"
+        },
+        {
+          "invert_powerline": false,
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#26D9C6",
+          "properties": {
+            "prefix": "<#D92639>✗</> "
+          },
+          "style": "plain",
+          "type": "poshgit"
+        },
+        {
+          "foreground": "#D75F00",
+          "properties": {
+            "prefix": "",
+            "text": "λ"
+          },
+          "style": "plain",
+          "type": "text"
+        }
+      ],
+      "type": "prompt",
+      "vertical_offset": 0
+    }
+  ],
+  "console_title": false,
+  "final_space": false,
+  "osc99": false
+}
